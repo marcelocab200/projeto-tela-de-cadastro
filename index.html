@@ -5,17 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teabucks - Tela de Cadastro</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <main>
         <div class="left-side">
-            <div class="logo">
-                
+            <div class="left-content">
+                <img src="assets/images/logo.svg" alt="logo"/></div>
+                <div class="login">
+                    <button class="login-items">Fazer login</button>
+                    <p class="login-items">Esqueci minha senha</p>
+                </div>
             </div>
         </div>
         <div class="right-side">
-
+            <div class="right-content">
+                <h1 class="header">Crie a sua conta</h1>
+                <div class="input-grid">
+                    <div class="input-div">
+                        <img class="user-icon" src="assets/images/user-icon.svg" alt="user-icon">
+                        <input type="text" class="input-container" id="username" name="username" placeholder="Nome do usuário"/>
+                    </div>
+                    <div class="input-div">
+                        <img class="email-icon" src="assets/images/email-icon.svg" alt="email-icon">
+                        <input type="email" class="input-container" id="email" name="email" placeholder="E-mail"/>
+                    </div>
+                    <div class="input-div">
+                        <img class="password-icon" src="assets/images/password-icon.svg" alt="password-icon">
+                        <input type="password" class="input-container" id="password" name="password" placeholder="Senha"/>
+                    </div>
+                    <div class="checkbox">
+                        <input class="checkbox-input" type="checkbox" id="special-offers" name="special-offers"/>
+                        <label>Ao marcar a caixa, concordo em receber por e-mail as atualizações e ofertas especiais</label>
+                    </div>
+                </div>
+                <button class="sign-up-button">Cadastre-se</button>
+            </div>
         </div>
     </main>
 </body>
